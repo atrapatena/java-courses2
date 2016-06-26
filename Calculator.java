@@ -2,7 +2,7 @@
    
    private int result;
    
-   public void add(int... param) {
+   public void add(int... params) {
       for(Integer param : params) {
 	    this.result += param;
 	  }
